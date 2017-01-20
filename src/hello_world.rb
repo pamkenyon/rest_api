@@ -3,6 +3,8 @@ require 'json'
 
 set :port, 4567
 set :hostname, :host_name
+set :game_ip, ENV['GAME_IP']
+set :game_port, ENV['GAME_PORT']
 
 
 get '/hello-world' do

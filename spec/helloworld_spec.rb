@@ -1,6 +1,6 @@
 ENV['RACK_ENV'] = 'test'
 
-require_relative '../hello_world.rb'
+require_relative '../src/hello_world.rb'
 require 'rspec'
 require 'rack/test'
 
