@@ -12,4 +12,10 @@ get '/hello-world' do
   { :msg => 'Hello World' }.to_json
 end
 
+get '/TicTacToe' do
+  { :board => '' }.to_json
+end
 
+post '/TicTacToe/NextMove' do
+  request.body
+end
