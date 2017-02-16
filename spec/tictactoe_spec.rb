@@ -22,6 +22,12 @@ describe 'Game App' do
     expect(last_response.body).to include('board')
   end
 
+  it 'verifies the board' do
 
+  end
+
+  it 'verifies the next move' do
+
+  end
 
 end
