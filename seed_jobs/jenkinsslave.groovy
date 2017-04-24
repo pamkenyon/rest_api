@@ -23,7 +23,7 @@ job('Create Ubuntu Slave') {
                         }
                         list(reference: 'c')
                     }
-                    cloud('Kenyonator_cloud')
+                    cloud('kenyonator_cloud')
                 }
             }
         }
