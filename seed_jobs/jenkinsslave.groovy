@@ -1,3 +1,5 @@
+def gitUrl = 'https://github.com/pamkenyon/rest_api.git'
+
 job('Create Ubuntu Slave') {
   scm {
     git {
